@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>UserName</key>
-	<string>root</string>
+	<string>brettneese</string>
 	<key>StandardErrorPath</key>
-	<string>/tmp/spoofmac.stderr</string>
+	<string>/tmp/sidecar-connect.stderr</string>
 	<key>StandardOutPath</key>
-	<string>/tmp/spoofmac.stdout</string>
+	<string>/tmp/sidecear-connect.stdout</string>
 	<key>Label</key>
-	<string>com.spoofmac.program</string>
+	<string>com.sidecar-connect.program</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/xpc_set_event_stream_handler</string>
-		<string>/usr/local/bin/spoofmac.sh</string>
+		<string>/Users/brettneese/bin/sidecar-connect/xpc_set_event_stream_handler</string>
+		<string>/Users/brettneese/bin/sidecar-connect/sidecar-connect.sh</string>
 	</array>
 	<key>LaunchEvents</key>
 	<dict>
@@ -22,11 +22,11 @@
 			<key>com.apple.device-attach</key>
 			<dict>
 				<key>idVendor</key>
-				<integer>32902</integer>
+				<integer>1452</integer>
 				<key>idProduct</key>
-				<integer>5427</integer>
+				<integer>4779</integer>
 				<key>IOProviderClass</key>
-				<string>IOPCIDevice</string>
+				<string>IOUSBDevice</string>
 				<key>IOMatchLaunchStream</key>
 				<true/>
 				<key>IOMatchStream</key>
